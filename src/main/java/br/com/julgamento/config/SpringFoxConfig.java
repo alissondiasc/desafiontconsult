@@ -50,7 +50,7 @@ public class SpringFoxConfig implements WebMvcConfigurer {
     @Bean
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2).select()
-                .apis(RequestHandlerSelectors.basePackage("br.com.julgamento.web.rest")).paths(PathSelectors.any())
+                .apis(RequestHandlerSelectors.basePackage("br.com.julgamento.resource")).paths(PathSelectors.any())
                 .build().apiInfo(apiInfo());
     }
 
