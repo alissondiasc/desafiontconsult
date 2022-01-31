@@ -41,5 +41,5 @@ Java.
 
 Links
 
-- Swagger: http://localhost:8080/api/swagger-ui
+- Swagger: http://localhost:8080/api/swagger-ui/index.html
 - Postamn: https://www.getpostman.com/collections/57144039b3f1518fd03b
